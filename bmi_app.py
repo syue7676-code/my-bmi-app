@@ -2,11 +2,11 @@ import streamlit as st
 
 # 1. 网页基础配置
 st.set_page_config(page_title="健康助手", page_icon="🥤")
-st.title("🥤 我的个人健康助手")
+st.title("🥤 我的个人健康助手", anchor=False)
 st.write("左右拖动滑块，实时掌控你的身体状态。")
 
 # 2. 输入部分
-st.header("数据输入")
+st.header("数据输入", anchor=False)
 weight = st.slider("体重 (kg)", min_value=10.0, max_value=200.0, value=70.0, step=0.1)
 # 身高最大限制在 2.5，彻底解决“几百米高”的问题
 height_input = st.slider("身高 (厘米或米)", min_value=0.5, max_value=2.5, value=1.70, step=0.01)
