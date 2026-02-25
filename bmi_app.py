@@ -31,4 +31,4 @@ else:
 
 # 5. 底部落款
 st.markdown("---")
-st.caption("由 **Yue** 的 AI 助手开发，祝您身体健康！💪")
+st.caption("由 **Syue** 的 AI 助手开发，祝您身体健康！💪")
